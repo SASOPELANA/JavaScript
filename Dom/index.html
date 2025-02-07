@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dom en JavaScript</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <input
+      type="button"
+      value="Cambiar el color del titulo"
+      onclick="cambiarColor()"
+    />
+    <h1 id="cambiar">Eventos del Dom</h1>
+
+    <p id="seleccionable">Ver la hora.</p>
+
+    <button onclick="mostrar()">Click para ver la hora</button>
+
+    <br />
+
+    <p id="skills">Numero randon</p>
+
+    <select onchange="skill()">
+      <option value="HTML">HTML</option>
+      <option value="HTML">CSS</option>
+      <option value="HTML">JavaScript</option>
+      <option value="HTML">ASTRO</option>
+    </select>
+
+    <br />
+
+    <button onclick="cambioFondo()">Fondo gris</button>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
