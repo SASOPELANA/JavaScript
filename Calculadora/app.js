@@ -10,6 +10,7 @@ function borrar() {
 }
 
 // Calcular el resultado de la pantalla
+// Metodo de Javascript eval para evaluar expresiones
 function calcular() {
   const valorPantalla = document.getElementById("pantalla").value;
   const resultado = eval(valorPantalla);

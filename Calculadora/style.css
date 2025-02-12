@@ -1,5 +1,8 @@
+/* Importar Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", serif;
   background-color: #9a9c9d;
 }
 
@@ -11,13 +14,13 @@ h1 {
 h2 {
   text-align: center;
   margin-top: 10px;
-  color: #666;
+  color: #000;
 }
 
 .calculadora {
   width: 314px;
   margin: 0 auto;
-  background-color: #daefe5;
+  background-color: #e0e4e6;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
